@@ -6,6 +6,7 @@
 
 const local = JSON.parse(localStorage.getItem("user")); 
 if (local != null) {
+   form.style.display = "none"
     h1.textContent = `Bonjour ${local.nom}, votre age est ${local.age}`;
 }
 
