@@ -11,3 +11,7 @@ bouton.onclick = () => {
     localStorage.setItem("nom", nom.value);
 
 }
+clear.onclick = () => {
+    localStorage.clear()
+    document.location.reload();
+}
