@@ -1,0 +1,8 @@
+label,input{
+    width: 160px;
+    display: inline-block;
+}
+button{
+    width: 200px;
+    margin: 3px;
+}
